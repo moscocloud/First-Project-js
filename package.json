@@ -1,0 +1,36 @@
+{
+  "name": "blog-native-js",
+  "version": "1.0.0",
+  "description": "js native blog",
+  "main": "index.js",
+  "scripts": {
+    "dev:watch": "webpack --config webpack.config.js --mode development --watch",
+    "start": "webpack-dev-server --mode development --open",
+    "build": "webpack --config webpack.config.js --mode production",
+    "dev": "webpack --config webpack.config.js --mode development",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "javascript",
+    "webpack",
+    "node.js",
+    "html",
+    "css"
+  ],
+  "author": "Anton Chadov",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.21.0",
+    "@babel/core": "^7.21.3",
+    "@babel/preset-env": "^7.20.2",
+    "babel-loader": "^9.1.2",
+    "html-webpack-plugin": "^5.5.0",
+    "webpack": "^5.76.2",
+    "webpack-cli": "^5.0.1",
+    "webpack-dev-server": "^4.13.1"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.12.1",
+    "firebase": "^9.18.0"
+  }
+}
