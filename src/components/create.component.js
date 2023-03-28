@@ -29,6 +29,7 @@ async function submitHandler() {
     };
 
     await apiService.createPost(formData);
+    alert('Пост создан')
     this.form.clear();
 
   } else {
